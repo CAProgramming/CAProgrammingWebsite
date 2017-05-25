@@ -2,8 +2,49 @@
 
 $open-sans: 'Open Sans', sans-serif;
 
+$off-white: #fafafa;
+$dark-green: #006847;
+$dark-green-alt: #005339;
+$alt-green: #93b479;
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: $open-sans;
+	box-sizing: border-box;
+}
+
+#header {
+	width: 100%;
+	height: 10vh;
+	background-color: $off-white;
+	color: $dark-green;
+	>h1 {
+		float: left;
+		line-hight: 10vh;
+		font-size: 7vh;
+		text-indent: 1vw;
+	}
+}
+
+#container {
+
+}
+
+.navbar {
+	float: right;
+	list-style-type: none;
+	.navbar__item {
+		display: inline-flex;
+		>a {
+			text-decoration: none;
+			color: $dark-green;
+		}
+		>a:hover {
+			color: $dark-green-alt;
+		}
+		>a:visited {
+			color: $dark-green;
+		}
+	}
 }
