@@ -22,11 +22,16 @@
   .navbar .navbar__item {
     display: inline-flex; }
     .navbar .navbar__item > a {
+      width: 8vw;
+      height: 5vh;
+      background-color: #006847;
+      font-size: 3vh;
+      line-hight: 5vh;
+      text-align: center;
       text-decoration: none;
-      color: #006847; }
+      color: #fafafa;
+      margin: 2.5vh 2.5vh 0 0; }
     .navbar .navbar__item > a:hover {
-      color: #005339; }
-    .navbar .navbar__item > a:visited {
-      color: #006847; }
+      background-color: #005339; }
 
 /*# sourceMappingURL=style.css.map */

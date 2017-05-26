@@ -37,14 +37,21 @@ $alt-green: #93b479;
 	.navbar__item {
 		display: inline-flex;
 		>a {
+			width: 8vw;
+			height: 5vh;
+			background-color: $dark-green;
+			font-size: 3vh;
+			line-hight: 5vh;
+			text-align: center;
 			text-decoration: none;
-			color: $dark-green;
+			color: $off-white;
+			margin: 2.5vh 2.5vh 0 0;
 		}
 		>a:hover {
-			color: $dark-green-alt;
+			background-color: $dark-green-alt;
 		}
 		>a:visited {
-			color: $dark-green;
+			//color: $dark-green;
 		}
 	}
 }
