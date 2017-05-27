@@ -1,37 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-  box-sizing: border-box; }
+	font-family: "Open Sans", sans-serif;
+}
+.navbar-custom {
+	background-color: #fafafa;
+	color: #006847; 
+}
 
-#header {
-  width: 100%;
-  height: 10vh;
-  background-color: #fafafa;
-  color: #006847; }
-  #header > h1 {
-    float: left;
-    line-hight: 10vh;
-    font-size: 7vh;
-    text-indent: 1vw; }
-
-.navbar {
-  float: right;
-  list-style-type: none; }
-  .navbar .navbar__item {
-    display: inline-flex; }
-    .navbar .navbar__item > a {
-      width: 8vw;
-      height: 5vh;
-      background-color: #006847;
-      font-size: 3vh;
-      line-hight: 5vh;
-      text-align: center;
-      text-decoration: none;
-      color: #fafafa;
-      margin: 2.5vh 2.5vh 0 0; }
-    .navbar .navbar__item > a:hover {
-      background-color: #005339; }
+.navbar-custom a:hover {
+	background-color: #005339; 
+}
 
 /*# sourceMappingURL=style.css.map */
