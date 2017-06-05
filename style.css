@@ -2,13 +2,32 @@
 * {
 	font-family: "Open Sans", sans-serif;
 }
-.navbar-custom {
-	background-color: #fafafa;
-	color: #006847; 
+
+#mission {
+  padding:0 50px 40px 50px;
+  margin:auto;
 }
 
-.navbar-custom a:hover {
-	background-color: #005339; 
+@media (max-width:991px) {
+  #mission{
+    padding:0 15px 15px 15px;
+    margin:auto;
+  }
 }
 
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family:'Open Sans', sans-serif;
+}
+
+.navbar-default {
+	background-color: #006847;
+	border-color: #005339;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #005339;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	background-color: #005339;
+}
