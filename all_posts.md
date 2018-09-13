@@ -1,11 +1,9 @@
 ---
-layout: allposts
-title: All posts
-landing-title: 'All posts'
+layout: page
+title: About
+landing-title: 'About'
 nav-menu: true
 description: null
 image: null
 author: null
 ---
-
-<h1>All posts</h1>
