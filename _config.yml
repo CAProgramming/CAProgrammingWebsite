@@ -1,7 +1,7 @@
 # site settings
 title: CA Programming
 subtitle:
-email: jiaxin.he@concordacademy.org
+email: ben_stumpf@concordacademy.org
 description: A club for Concord Academy students interested in <br /> computer science to learn, connect, and contribute to <br /> the community through enjoyable projects.
 baseurl: "/Club-Website" # the subpath of your site, e.g. /blog
 url: caprogramming.github.io # the base hostname & protocol for your site
@@ -15,7 +15,7 @@ phone: 978-402-2277
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 3
+tiles-count: 4
 
 # social settings
 500px_url:
