@@ -29,12 +29,12 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 32vh;
+			height: 30vh;
 			max-height: 40em;
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 33%;
+			width: 40%;
 
 			.image {
 				display: none;
@@ -75,7 +75,7 @@
 				opacity: 0.85;
 				position: absolute;
 				width: 100%;
-				z-index: 2;
+				z-index: 3;
 			}
 
 			&:after {
